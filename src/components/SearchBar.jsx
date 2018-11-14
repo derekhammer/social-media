@@ -2,15 +2,17 @@ import React from 'react';
 
 function SearchBar(){
     var styleSearchBar = {
-        float: 'right',
-        marginRight: '7%',
         borderRadius: '10px',
         border: '2px solid lightBlue'
     }
+    var positionSearchBar = {
+        float: 'right',
+        marginRight: '7%',
+    }
     return(
-        <div style={styleSearchBar}>
+        <div style={positionSearchBar}>
             <form>
-                <label><input type="text" placeholder="Search"/></label>
+                <label><input style={styleSearchBar} type="text" placeholder="Search"/></label>
             </form>
         </div>
     );

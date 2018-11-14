@@ -10,9 +10,9 @@ function NavBar(){
     return(
         <div>
             <ul>
-                <li style={navStyle}>Home</li>
-                <li style={navStyle}>Notifications</li>
-                <li style={navStyle}>Messages</li>
+                <button style={navStyle}>Home</button>
+                <button style={navStyle}>Notifications</button>
+                <button style={navStyle}>Messages</button>
             </ul>
         </div>
     )
